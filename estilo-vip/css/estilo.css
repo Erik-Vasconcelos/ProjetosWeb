@@ -1,0 +1,375 @@
+/* CONFIGURAÇÕES DE FONTES
+================================================================
+*/
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../font/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("../font/PlayfairDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../font/PlayfairDisplay-Medium.woff2") format("woff2"),
+    url("../font/PlayfairDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../font/PlayfairDisplay-SemiBold.woff2") format("woff2"),
+    url("../font/PlayfairDisplay-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../font/PlayfairDisplay-Bold.woff2") format("woff2"),
+    url("../font/PlayfairDisplay-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../font/PlayfairDisplay-ExtraBold.woff2") format("woff2"),
+    url("../font/PlayfairDisplay-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../font/PlayfairDisplay-Black.woff2") format("woff2"),
+    url("../font/PlayfairDisplay-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins-Thin.woff2") format("woff2"),
+    url("../font/Poppins-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins-ExtraLight.woff2") format("woff2"),
+    url("../font/Poppins-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins-Light.woff2") format("woff2"),
+    url("../font/Poppins-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins-Medium.woff2") format("woff2"),
+    url("../font/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins-SemiBold.woff2") format("woff2"),
+    url("../font/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins-Bold.woff2") format("woff2"),
+    url("../font/Poppins-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins-ExtraBold.woff2") format("woff2"),
+    url("../font/Poppins-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins-Black.woff2") format("woff2"),
+    url("../font/Poppins-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CONFIGURAÇÕES GERAIS
+  ================================================================
+  */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0;
+  color: #707070;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  color: #252525;
+}
+
+/* CABEÇALHO
+  ================================================================
+  */
+
+header {
+  background: #f5f5f5;
+}
+
+header #navegacao-header a {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  color: #252525;
+}
+
+header #navegacao-header a:hover {
+  color: #f7a392;
+  transition: 0.3s;
+}
+
+/* HOME
+  ================================================================
+  */
+
+section#home {
+  background: #f5f5f5;
+  position: relative;
+}
+
+#img-sobreposicao {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  background: url(../img/after.png) no-repeat left bottom;
+  height: 140px;
+  width: 100%;
+}
+
+/* SERVIÇOS
+  ================================================================
+  */
+
+#servicos {
+  background: #fff6f4;
+}
+
+/* PLANOS
+  ================================================================
+  */
+
+#planos {
+  background: url(../img/bg-planos.png) no-repeat fixed center;
+  background-size: cover;
+}
+
+/* CONTATO
+  ================================================================
+  */
+
+#contato {
+  background: #fff6f4 url(../img/bg-contato.png) no-repeat;
+}
+
+/* RORAPÉ
+  ================================================================
+  */
+
+footer {
+  background: #252525;
+}
+
+footer #navegacao-links-footer a {
+  color: #fff;
+  display: inline-block;
+}
+
+footer #navegacao-links-footer a:hover {
+  color: #f7a392;
+  transition: 0.5s;
+  text-indent: 6px;
+}
+
+/* COPYRIGHT
+  ================================================================
+  */
+
+#copyright {
+  background: #2f2f2f;
+}
+
+/* CLASSES UTILITÁRIAS
+  ================================================================
+  */
+
+.text-subtitle {
+  color: #f7a392;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.bg-base {
+  background: #f7a392;
+}
+
+.bg-base-2 {
+  background: #fff6f4;
+}
+
+.text-base {
+  color: #f7a392;
+}
+
+.text-base-2 {
+  color: #252525;
+}
+
+.text-base-3 {
+  color: #707070;
+}
+
+.btn-icon {
+  color: #fff;
+}
+
+.btn-icon:hover {
+  background: #f7a392;
+  transition: 0.3s;
+  color: #252525 !important;
+}
+
+.hover-primary {
+  background: #fff;
+}
+
+.hover-primary:hover {
+  background: #f7a392 !important;
+  transition: 0.3s;
+}
+
+.hover-white:hover {
+  background: #fff !important;
+  transition: 0.3s;
+  color: #f7a392 !important;
+}
+
+.hover-border-primary:hover {
+  border: 1px solid #f7a392;
+}
+
+.borda-pilula {
+  border-radius: 99em;
+}
+
+.link-primary:link,
+.link-primary:active {
+  color: #fff;
+}
+
+.link-primary:hover {
+  color: #f7a392;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+/*=================fontes==================*/
+.font-weight-thin {
+  font-weight: 100;
+}
+
+.font-weight-extra-light {
+  font-weight: 200;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-regular {
+  font-weight: 400;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.font-weight-semi-bold {
+  font-weight: 600;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-extra-bold {
+  font-weight: 800;
+}
+
+.font-weight-black {
+  font-weight: 900;
+}

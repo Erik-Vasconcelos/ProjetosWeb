@@ -1,0 +1,1056 @@
+<!--
+    author: Erik Vasconcelos
+    since: 24-08-03
+    description: Criando um site como projeto/exercicio
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="icon" href="img/logo.ico" type="image/x-icon" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!-- Estilizção -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/a96fcd50d1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Estilo Vip - Salão</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-md navbar-light px-md-5 py-3">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" alt="logo" height="50" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navegacao-header"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navegacao-header">
+          <ul class="navbar-nav ml-auto font-weight-medium">
+            <li class="nav-item px-md-1 px-lg-3">
+              <a href="#" class="nav-link -5">Home</a>
+            </li>
+            <li class="nav-item px-md-1 px-lg-3">
+              <a href="#sobre" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item px-md-1 px-lg-3">
+              <a href="#servicos" class="nav-link">Serviços</a>
+            </li>
+            <li class="nav-item px-md-1 px-lg-3">
+              <a href="#portifolio" class="nav-link">Portifólio</a>
+            </li>
+            <li class="nav-item px-md-1 px-lg-3">
+              <a href="#planos" class="nav-link">Preços</a>
+            </li>
+            <li class="nav-item px-md-1 px-lg-3">
+              <a href="#contato" class="nav-link">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="py-4 mb-5">
+      <!--INICIO home-->
+      <div class="container pt-4">
+        <div class="row">
+          <div class="col-md-6 d-flex pb-5 z-index-2">
+            <!--INICIO coluna 1-->
+
+            <div class="align-self-center">
+              <img
+                src="img/only-logo.png"
+                alt="only-logo"
+                width="203"
+                class="mb-3"
+              />
+
+              <h1 class="display-4 text-capitalize font-weight-black">
+                Experimente os melhores serviços de
+                <span class="text-base font-weight-semi-bold">beleza</span>
+              </h1>
+
+              <p class="mt-3 mb-5">Um mundo de possibilidades para você</p>
+
+              <a
+                href="#contato"
+                class="nav-link p-3 d-inline borda-pilula bg-white hover-primary"
+              >
+                <span class="rounded-circle text-white bg-base p-2">
+                  <i class="mx-auto fa-solid fa-pencil"></i>
+                </span>
+
+                <span class="ml-3 text-base-3">Marcar Consulta</span>
+              </a>
+            </div>
+          </div>
+          <!--FIM coluna 1-->
+
+          <div class="col-md-6 d-none d-md-flex">
+            <!--INICIO coluna 2-->
+            <div class="align-self-end">
+              <img src="img/capa.png" alt="capa" class="img-fluid" />
+            </div>
+          </div>
+          <!--FIM coluna 2-->
+        </div>
+      </div>
+      <div id="img-sobreposicao"></div>
+    </section>
+    <!--FIM home-->
+
+    <section id="sobre" class="py-5 mb-5">
+      <!--INICIO sobre-->
+      <div class="container">
+        <div class="text-center">
+          <h5 class="text-base text-subtitle font-weight-light">Bem Vindo</h5>
+          <h1 class="display-4 text-capitaliz font-weight-bold">
+            Uma experiência de
+            <span class="text-base">beleza incrível</span>
+          </h1>
+          <p class="text-center w-75 mx-auto mt-4 mb-5">
+            Bem-vindo ao Estilo VIP, onde sua beleza é nossa prioridade.
+            Oferecemos serviços completos de cabelo, maquiagem, manicure,
+            depilação, design de sobrancelhas e spa para realçar sua aparência e
+            bem-estar. Nosso compromisso é proporcionar uma experiência única,
+            combinando profissionalismo e sofisticação em cada detalhe. Venha
+            transformar seu visual com a gente!
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-5 offset-lg-1 mb-5 mb-md-0">
+            <img src="img/sobre-1.jpg" alt="sobre" class="img-fluid" />
+          </div>
+
+          <div class="col-md-6 col-lg-5">
+            <img src="img/sobre-2.jpg" alt="sobre" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FIM sobre-->
+
+    <section id="servicos" class="py-5 mb-5">
+      <!--INICIO servicos-->
+      <div class="container">
+        <div class="text-center">
+          <h5 class="text-base text-subtitle font-weight-light">
+            O que nós fazemos
+          </h5>
+          <h1 class="display-4 text-capitaliz font-weight-bold">
+            Nossos<span class="text-base"> Serviços</span>
+          </h1>
+          <p class="text-center w-75 mx-auto mt-4 mb-5">
+            Oferecemos serviços completos de cabelo, maquiagem, manicure,
+            depilação, design de sobrancelhas e spa para realçar sua aparência e
+            bem-estar. Nosso compromisso é proporcionar uma experiência única,
+            combinando profissionalismo e sofisticação em cada detalhe. Venha
+            transformar seu visual com a gente!
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+              <img
+                src="img/service-1.jpg"
+                alt="servico-1"
+                class="card-img-top"
+              />
+
+              <div class="card-body text-center">
+                <h4 class="card-title">Cabelo</h4>
+
+                <p class="card-text">
+                  Transforme seu visual com cortes, colorações e tratamentos
+                  personalizados para destacar a beleza e saúde dos seus
+                  cabelos.
+                </p>
+              </div>
+
+              <div class="card-footer text-center py-3 bg-white">
+                <a
+                  href="#contato"
+                  class="btn bg-base text-white hover-white hover-border-primary"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!--INICIO coluna 2-->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+              <img
+                src="img/service-2.jpg"
+                alt="servico-2"
+                class="card-img-top"
+              />
+
+              <div class="card-body text-center">
+                <h4 class="card-title">Maquiagem</h4>
+
+                <p class="card-text">
+                  Realce sua beleza natural com nossas maquiagens profissionais,
+                  perfeitas para qualquer ocasião.
+                </p>
+              </div>
+
+              <div class="card-footer text-center py-3 bg-white">
+                <a
+                  href="#contato"
+                  class="btn bg-base text-white hover-white hover-border-primary"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--FIM coluna 2-->
+
+          <!--INICIO coluna 3-->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+              <img
+                src="img/service-3.jpg"
+                alt="servico-3"
+                class="card-img-top"
+              />
+
+              <div class="card-body text-center">
+                <h4 class="card-title">Manicure</h4>
+
+                <p class="card-text">
+                  Cuide das suas mãos e unhas com nossos serviços de manicure e
+                  pedicure, incluindo esmaltação, unhas decoradas e tratamento
+                  de cutículas.
+                </p>
+              </div>
+
+              <div class="card-footer text-center py-3 bg-white">
+                <a
+                  href="#contato"
+                  class="btn bg-base text-white hover-white hover-border-primary"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!--FIM coluna 3-->
+
+          <!--INICIO coluna 4-->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+              <img
+                src="img/service-4.jpg"
+                alt="servico-4"
+                class="card-img-top"
+              />
+
+              <div class="card-body text-center">
+                <h4 class="card-title">Depilação</h4>
+
+                <p class="card-text">
+                  Desfrute de uma pele lisa e macia com nossas técnicas de
+                  depilação seguras e eficazes, adaptadas às suas necessidades.
+                </p>
+              </div>
+
+              <div class="card-footer text-center py-3 bg-white">
+                <a
+                  href="#contato"
+                  class="btn bg-base text-white hover-white hover-border-primary"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--FIM coluna 4-->
+          <!--INICIO coluna 5-->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+              <img
+                src="img/service-5.jpg"
+                alt="servico-5"
+                class="card-img-top"
+              />
+
+              <div class="card-body text-center">
+                <h4 class="card-title">Designs de Sobrancelhas</h4>
+
+                <p class="card-text">
+                  Realce a expressão do seu olhar com nosso design de
+                  sobrancelhas, moldando-as de forma harmoniosa e precisa.
+                </p>
+              </div>
+
+              <div class="card-footer text-center py-3 bg-white">
+                <a
+                  href="#contato"
+                  class="btn bg-base text-white hover-white hover-border-primary"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--FIM coluna 5-->
+
+          <!--INICIO coluna 6-->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+              <img
+                src="img/service-6.jpg"
+                alt="servico-6"
+                class="card-img-top"
+              />
+
+              <div class="card-body text-center">
+                <h4 class="card-title">SPA</h4>
+
+                <p class="card-text">
+                  Relaxe e revitalize-se com nossos tratamentos de spa, que
+                  incluem massagens, hidratações e outros cuidados especiais
+                  para o corpo e mente.
+                </p>
+              </div>
+
+              <div class="card-footer text-center py-3 bg-white">
+                <a
+                  href="#contato"
+                  class="btn bg-base text-white hover-white hover-border-primary"
+                  >Agendar</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--FIM coluna 6-->
+        </div>
+      </div>
+    </section>
+    <!--FIM servicos-->
+
+    <section id="portifolio" class="py-5 mb-5">
+      <div class="container">
+        <div class="text-center">
+          <h5 class="text-base text-subtitle font-weight-light">
+            Um pouco do nosso trabalho
+          </h5>
+          <h1 class="display-4 text-capitaliz font-weight-bold mb-5">
+            Nosso<span class="text-base"> Portifólio</span>
+          </h1>
+        </div>
+
+        <div class="card-columns">
+          <div class="card mb-4">
+            <img
+              class="card-img"
+              src="img/portifolio-1.jpg"
+              alt="portifolio-1"
+            />
+          </div>
+
+          <div class="card mb-4">
+            <img
+              class="card-img"
+              src="img/portifolio-2.jpg"
+              alt="portifolio-2"
+            />
+          </div>
+
+          <div class="card mb-4">
+            <img
+              class="card-img"
+              src="img/portifolio-3.jpg"
+              alt="portifolio-3"
+            />
+          </div>
+          <div class="card mb-4">
+            <img
+              class="card-img"
+              src="img/portifolio-4.jpg"
+              alt="portifolio-4"
+            />
+          </div>
+
+          <div class="card mb-4">
+            <img
+              class="card-img"
+              src="img/portifolio-5.jpg"
+              alt="portifolio-5"
+            />
+          </div>
+
+          <div class="card mb-4">
+            <img
+              class="card-img"
+              src="img/portifolio-6.jpg"
+              alt="portifolio-6"
+            />
+          </div>
+
+          <div class="card mb-4">
+            <img
+              class="card-img"
+              src="img/portifolio-7.jpg"
+              alt="portifolio-7"
+            />
+          </div>
+
+          <div class="card mb-4">
+            <img
+              class="card-img"
+              src="img/portifolio-8.jpg"
+              alt="portifolio-8"
+            />
+          </div>
+
+          <div class="card mb-4">
+            <img
+              class="card-img"
+              src="img/portifolio-9.jpg"
+              alt="portifolio-9"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--INICIO planos-->
+    <section id="planos" class="py-5 mb-5">
+      <div class="container content">
+        <div>
+          <h5 class="text-base text-subtitle font-weight-light">
+            Ofertas ideais para você
+          </h5>
+          <h1 class="display-4 text-capitaliz font-weight-bold">
+            Planos e<span class="text-base"> Preços</span>
+          </h1>
+          <p class="w-75 mt-4 mb-5">
+            Confira os preços dos nossos serviços de beleza e bem-estar.
+            Oferecemos uma variedade de tratamentos e pacotes para atender às
+            suas necessidades. Escolha o serviço ideal para você e se sinta
+            ainda mais incrível.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="media p-2 mb-2">
+              <img
+                src="img/corte.jpg"
+                alt="corte"
+                width="100"
+                class="rounded mr-2"
+              />
+
+              <div class="media-body align-self-center">
+                <div class="d-flex justify-content-between border-bottom p-0">
+                  <h4 class="m-0">Corte Feminino</h4>
+
+                  <p class="font-weight-bold h5 text-danger">R$ 99</p>
+                </div>
+                <p class="mt-2 d-inline">45 min de transformação</p>
+                <h5><span class="badge badge-warning">Oferta</span></h5>
+              </div>
+            </div>
+
+            <div class="media p-2 mb-2">
+              <img
+                src="img/coloracao.jpg"
+                alt="coloracao"
+                width="100"
+                class="rounded mr-2"
+              />
+
+              <div class="media-body align-self-center">
+                <div class="d-flex justify-content-between border-bottom p-0">
+                  <h4 class="m-0">Coloração</h4>
+
+                  <p class="font-weight-bold h5">R$ 180</p>
+                </div>
+                <p class="mt-2 d-inline">60 min de renovação</p>
+              </div>
+            </div>
+
+            <div class="media p-2 mb-2">
+              <img
+                src="img/escova.jpg"
+                alt="escova"
+                width="100"
+                class="rounded mr-2"
+              />
+
+              <div class="media-body align-self-center">
+                <div class="d-flex justify-content-between border-bottom p-0">
+                  <h4 class="m-0">Escova</h4>
+
+                  <p class="font-weight-bold h5">R$ 140</p>
+                </div>
+                <p class="mt-2 d-inline">30 min de puro tratamento</p>
+              </div>
+            </div>
+
+            <div class="media p-2 mb-2">
+              <img
+                src="img/maquiagem.jpg"
+                alt="maquiagem"
+                width="100"
+                class="rounded mr-2"
+              />
+
+              <div class="media-body align-self-center">
+                <div class="d-flex justify-content-between border-bottom p-0">
+                  <h4 class="m-0">Maquiagem Social</h4>
+
+                  <p class="font-weight-bold h5">R$ 200</p>
+                </div>
+                <p class="mt-2 d-inline">60 min de glamour</p>
+              </div>
+            </div>
+
+            <div class="media p-2 mb-2">
+              <img
+                src="img/maquiagem-noiva.jpg"
+                alt="maquiagem-noiva"
+                width="100"
+                class="rounded mr-2"
+              />
+
+              <div class="media-body align-self-center">
+                <div class="d-flex justify-content-between border-bottom p-0">
+                  <h4 class="m-0">Maquiagem para Noivas</h4>
+
+                  <p class="font-weight-bold h5 text-danger">R$ 349</p>
+                </div>
+                <p class="mt-2 d-inline">90 min de beleza inesquecível</p>
+                <h5><span class="badge badge-warning">Oferta</span></h5>
+              </div>
+            </div>
+
+            <div class="media p-2 mb-2">
+              <img
+                src="img/coloracao.jpg"
+                alt="coloracao"
+                width="100"
+                class="rounded mr-2"
+              />
+
+              <div class="media-body align-self-center">
+                <div class="d-flex justify-content-between border-bottom p-0">
+                  <h4 class="m-0">Manicure Simples</h4>
+
+                  <p class="font-weight-bold h5 text-danger">R$ 49</p>
+                </div>
+                <p class="mt-2 d-inline">30 min de cuidado essencial</p>
+                <h5><span class="badge badge-warning">Oferta</span></h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="media p-2 mb-2">
+              <img
+                src="img/unha-gel.jpg"
+                alt="esmaltação-gel"
+                width="100"
+                class="rounded mr-2"
+              />
+              <div class="media-body align-self-center">
+                <div class="d-flex justify-content-between border-bottom p-0">
+                  <h4 class="m-0">Esmaltação em Gel</h4>
+                  <p class="font-weight-bold h5">R$ 80</p>
+                </div>
+                <p class="mt-2 d-inline">45 min de brilho duradouro</p>
+              </div>
+            </div>
+
+            <div class="media p-2 mb-2">
+              <img
+                src="img/depilacao.jpg"
+                alt="depilacao-completa"
+                width="100"
+                class="rounded mr-2"
+              />
+              <div class="media-body align-self-center">
+                <div class="d-flex justify-content-between border-bottom p-0">
+                  <h4 class="m-0">Depilação Completa</h4>
+                  <p class="font-weight-bold h5">R$ 150</p>
+                </div>
+                <p class="mt-2 d-inline">60 min de suavidade total</p>
+              </div>
+            </div>
+
+            <div class="media p-2 mb-2">
+              <img
+                src="img/buco.jpg"
+                alt="depilacao-buco"
+                width="100"
+                class="rounded mr-2"
+              />
+              <div class="media-body align-self-center">
+                <div class="d-flex justify-content-between border-bottom p-0">
+                  <h4 class="m-0">Depilação de Buço</h4>
+                  <p class="font-weight-bold h5 text-danger">R$ 39</p>
+                </div>
+                <p class="mt-2 d-inline">15 min de delicadeza</p>
+                <h5><span class="badge badge-warning">Oferta</span></h5>
+              </div>
+            </div>
+
+            <div class="media p-2 mb-2">
+              <img
+                src="img/sobrancelha.jpg"
+                alt="design-henna"
+                width="100"
+                class="rounded mr-2"
+              />
+              <div class="media-body align-self-center">
+                <div class="d-flex justify-content-between border-bottom p-0">
+                  <h4 class="m-0">Sobrancelhas com Henna</h4>
+                  <p class="font-weight-bold h5 text-danger">R$ 69</p>
+                </div>
+                <p class="mt-2 d-inline">30 min de definição</p>
+                <h5><span class="badge badge-warning">Oferta</span></h5>
+              </div>
+            </div>
+
+            <div class="media p-2 mb-2">
+              <img
+                src="img/sobrancelha-micro.jpg"
+                alt="design-microblading"
+                width="100"
+                class="rounded mr-2"
+              />
+              <div class="media-body align-self-center">
+                <div class="d-flex justify-content-between border-bottom p-0">
+                  <h4 class="m-0">Design com Microblading</h4>
+                  <p class="font-weight-bold h5 d-inline">R$ 300</p>
+                </div>
+                <p class="mt-2 d-inline">90 min de precisão</p>
+              </div>
+            </div>
+
+            <div class="media p-2 mb-2">
+              <img
+                src="img/massagem.jpg"
+                alt="spa-day"
+                width="100"
+                class="rounded mr-2"
+              />
+              <div class="media-body align-self-center">
+                <div class="d-flex justify-content-between border-bottom p-0">
+                  <h4 class="m-0">SPA Day Completo</h4>
+                  <p class="font-weight-bold h5">R$ 500</p>
+                </div>
+                <p class="mt-2 d-inline">120 min de renovação total</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FIM planos-->
+
+    <section id="endereco" class="py-5 mb-5">
+      <div class="container">
+        <div class="text-center">
+          <h5 class="text-base text-subtitle font-weight-light">
+            Onde nos encontrar
+          </h5>
+          <h1 class="display-4 text-capitaliz font-weight-bold mb-5">
+            Nosso<span class="text-base"> Endereço</span>
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+            <div class="row">
+              <div class="col-6 col-md-12 mb-2 mb-md-0">
+                <div class="d-flex justify-content-start">
+                  <span
+                    class="rounded-circle bg-base d-flex justify-content-center mr-1"
+                    style="width: 35px; height: 35px"
+                  >
+                    <i
+                      class="fa-solid fa-location-dot text-white fa-lg align-self-center"
+                    ></i>
+                  </span>
+
+                  <h4>Localização</h4>
+                </div>
+
+                <p class="mt-2">
+                  Av. Paulista, 2073 <br />Consolação, <br />São Paulo - SP,
+                  01311-300
+                </p>
+              </div>
+
+              <div class="col-6 col-md-12 mt-md-5 mb-2 mb-md-0">
+                <div class="d-flex justify-content-start">
+                  <span
+                    class="rounded-circle bg-base d-flex justify-content-center mr-1"
+                    style="width: 35px; height: 35px"
+                  >
+                    <i
+                      class="fa-solid fa-clock text-white fa-lg align-self-center"
+                    ></i>
+                  </span>
+
+                  <h4>Horário</h4>
+                </div>
+
+                <p class="mt-2">
+                  Seg a Sex: 7:30 am — 20:00 pm<br />
+                  Sáb: 9:00 am — 18:00 pm<br />
+                  Dom: 9:00 am — 18:00 pm
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8 col-lg-9">
+            <div class="">
+              <iframe
+                class="w-100"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.084685845117!2d-46.6600474!3d-23.5587024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cd6d998047%3A0xe68cce9f16e41939!2sConjunto%20Nacional!5e0!3m2!1spt-BR!2sbr!4v1722900731607!5m2!1spt-BR!2sbr"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      id="alert-msg-contato"
+      class="alert alert-success position-fixed w-100"
+      style="top: 0; left: 0; z-index: 99; display: none"
+      role="alert"
+    >
+      Mensagem enviada com <span class="font-weight-bold">Sucesso</span>!
+    </div>
+
+    <section id="contato" class="py-5">
+      <!--INICIO contato-->
+      <div class="container mb-5">
+        <div class="text-center mt-5">
+          <h5 class="text-base text-subtitle font-weight-light">
+            Fale conosco
+          </h5>
+          <h1 class="display-4 text-capitaliz font-weight-bold mb-5">
+            Contato
+          </h1>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="bg-base-2 p-5 border">
+              <h3>Marque um horário</h3>
+
+              <p>
+                Entre em contato com o Estilo VIP para agendar seu atendimento
+                ou esclarecer dúvidas. Estamos prontos para ajudar você a
+                alcançar o visual dos seus sonhos.
+              </p>
+
+              <form id="form-contato">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="nome"
+                    placeholder="Nome"
+                    class="form-control p-4"
+                    required="required"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="E-mail"
+                    class="form-control p-4"
+                    required="required"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="number"
+                    name="number"
+                    placeholder="Seu telefone"
+                    class="form-control p-4"
+                    required="required"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <textarea
+                    name="mesangem"
+                    class="form-control p-4"
+                    placeholder="Sua mensagem"
+                    required="required"
+                  ></textarea>
+                </div>
+
+                <input
+                  type="submit"
+                  class="btn bg-base text-white borda-pilula px-5"
+                  value="Enviar"
+                  onclick="enviarForm()"
+                />
+              </form>
+            </div>
+          </div>
+
+          <div class="col-lg-5 d-none d-lg-flex">
+            <div class="align-self-end">
+              <img src="img/mulher-spa.png" alt="mulher" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FIM contato-->
+
+    <footer class="py-5">
+      <!--INICIO rodapé-->
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-12 col-md-5 mt-4">
+            <h4 class="font-weight-bold mb-3 text-white">Sobre Nós</h4>
+
+            <p class="font-weight-light mb-3 mb-md-4">
+              Somos o salão Estilo VIP, especializado em cabelo, maquiagem,
+              manicure, depilação, sobrancelhas e spa. Oferecemos uma
+              experiência sofisticada e personalizada.
+            </p>
+
+            <a
+              href="#contato"
+              class="nav-link p-2 d-inline-block borda-pilula bg-white hover-primary"
+            >
+              <span class="rounded-circle text-white bg-base p-2">
+                <i class="mx-auto fa-solid fa-pencil"></i>
+              </span>
+
+              <span class="ml-3 text-base-2">Marcar Consulta</span>
+            </a>
+
+            <div class="mt-3">
+              <a href="#" class="btn p-2 btn-icon">
+                <i class="fa-brands fa-twitter fa-lg"></i>
+              </a>
+
+              <a href="#" class="btn p-2 btn-icon">
+                <i class="fa-brands fa-facebook fa-lg"></i>
+              </a>
+
+              <a href="#" class="btn p-2 btn-icon">
+                <i class="fa-brands fa-instagram fa-lg"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mt-4 pl-md-4">
+            <h4 class="font-weight-bold mb-3 text-white">Links</h4>
+
+            <ul id="navegacao-links-footer" class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  href="https://www.vogue.com/beauty"
+                  class="nav-link"
+                  target="_blank"
+                  >Tendências</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  href="https://www.sephora.com/"
+                  class="nav-link"
+                  target="_blank"
+                  >Produtos Recomendados</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  href="https://intothegloss.com/"
+                  class="nav-link"
+                  target="_blank"
+                  >Dicas de Beleza</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  href="https://www.webmd.com/beauty/default.htm"
+                  class="nav-link"
+                  target="_blank"
+                  >Saúde e Bem-Estar</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-4 mt-4">
+            <h4 class="font-weight-bold mb-3 text-white">Fale Conosco</h4>
+
+            <div class="d-flex flex-column justify-content-between">
+              <div class="d-flex align-items-center py-2">
+                <div class="btn bg-base d-inline">
+                  <i
+                    class="fa-solid fa-location-dot text-white fa-lg align-self-center"
+                  ></i>
+                </div>
+                <p class="mb-0 ml-3">
+                  Av. Paulista, 2073 - Consolação São Paulo - 01311-300
+                </p>
+              </div>
+
+              <div class="d-flex align-items-center py-2">
+                <div class="btn bg-base d-inline">
+                  <i
+                    class="fa-solid fa-phone text-white fa-lg align-self-center"
+                  ></i>
+                </div>
+                <p class="mb-0 ml-3">
+                  Telefone de Contato<br />(11) 98564-7851
+                </p>
+              </div>
+
+              <div class="d-flex align-items-center py-2">
+                <div class="btn bg-base d-inline">
+                  <i
+                    class="fa-solid fa-clock text-white fa-lg align-self-center"
+                  ></i>
+                </div>
+                <p class="mb-0 ml-3">Seg a Sex <br />9:00 am a 20:00 pm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--FIM rodapé-->
+
+    <!--INICIO copyright-->
+    <section id="copyright">
+      <div
+        class="container clearfix py-4 text-center text-md-left text-white font-weight-extra-light"
+      >
+        <p class="m-0 float-md-left">
+          &copy; <span id="current-year"></span> Estilo VIP. Todos os direitos
+          reservados.
+        </p>
+
+        <p class="float-md-right m-0">
+          Criado por
+          <a
+            href="https://erikvasconcelos.com.br"
+            target="_blank"
+            class="font-weight-bold text-underline link-primary"
+            >Erik Vasconcelos</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <!--FIM copyright-->
+
+    <!--INICIO JAVASCRIPT-->
+    <script>
+      function setCurrentYear() {
+        var currentYear = new Date().getFullYear();
+        document.getElementById("current-year").textContent = currentYear;
+      }
+
+      window.onload = setCurrentYear;
+
+      document
+        .getElementById("form-contato")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          let formIsValid = true;
+          const formElements = this.elements;
+
+          for (let i = 0; i < formElements.length; i++) {
+            if (formElements[i].type !== "submit") {
+              formElements[i].classList.remove("is-invalid");
+            }
+          }
+
+          for (let i = 0; i < formElements.length; i++) {
+            const element = formElements[i];
+            if (element.type !== "submit" && !element.checkValidity()) {
+              element.classList.add("is-invalid");
+              formIsValid = false;
+            }
+          }
+
+          if (formIsValid) {
+            for (let i = 0; i < formElements.length; i++) {
+              if (formElements[i].type !== "submit") {
+                formElements[i].value = "";
+              }
+            }
+            var alert = document.getElementById("alert-msg-contato");
+            alert.style.display = "block";
+
+            setTimeout(function () {
+              alert.style.display = "none";
+            }, 4000);
+          }
+        });
+    </script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--FIM JAVASCRIPT-->
+  </body>
+</html>
