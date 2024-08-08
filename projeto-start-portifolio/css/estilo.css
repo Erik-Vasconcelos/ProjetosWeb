@@ -1,0 +1,95 @@
+/* CONGIFURAÇÕES GERAIS
+===============================================
+*/
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color: #212028;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+
+/* HOME
+===============================================
+*/
+section#home .container{
+    height: 100vh;
+}
+
+section#home h1{
+    letter-spacing: 0.1em;
+}
+
+section#home p{
+    color: #DDE1E6;
+    font-size: 0.9em;
+}
+
+section#home ul a{
+    font-size: 1.5em;
+    padding: 0 .6em;
+}
+
+/* CLASSES
+===============================================
+*/
+
+.sombra:hover{
+    box-shadow: 2px 5px 20px 3px #5D45FD;
+}
+
+.color-primary{
+    color: #5D45FD;
+    /*141BD4*/
+}
+
+.border-primary{
+    border: 2px solid #5D45FD;
+}
+
+.bg-fundo{
+    background: #212028;
+}
+
+.bg-primary-gradient{
+    background: linear-gradient(to right, #5D45FD, #141BD4);
+}
+
+.border-primary-gradiente{
+    border: 2px solid;
+    border-image: linear-gradient(to right, #5D45FD, #141BD4) 1;
+}
+
+.border-pill{
+    border-radius: 9999px;
+}
+
+.font-08{
+    font-size: 0.8em;
+}
