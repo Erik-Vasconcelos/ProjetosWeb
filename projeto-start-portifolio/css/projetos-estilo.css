@@ -1,0 +1,10 @@
+section p{
+    font-size: 0.9em;
+}
+
+.card img {
+  max-height: 15em;
+  object-fit: cover;
+  vertical-align: top;
+  object-position: top;
+}
