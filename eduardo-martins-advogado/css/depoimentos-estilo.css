@@ -1,0 +1,47 @@
+/* HEADER
+============================================
+*/
+
+header nav {
+  background: rgba(31, 40, 57, 0.98);
+}
+
+#banner {
+  background: linear-gradient(
+      180deg,
+      rgba(31, 40, 57, 0.5),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../img/banner-depoimentos.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 50vh;
+}
+
+/* Breakpoints
+============================================
+*/
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  #caixa-agradecimento blockquote {
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #caixa-agradecimento blockquote {
+    width: 50%;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}

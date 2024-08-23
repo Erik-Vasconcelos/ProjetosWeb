@@ -1,0 +1,81 @@
+/* HEADER
+============================================
+*/
+
+header nav {
+  background: rgba(31, 40, 57, 0.98);
+}
+
+#banner {
+  background: linear-gradient(
+      180deg,
+      rgba(31, 40, 57, 0.5),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../img/banner-contato.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 50vh;
+}
+
+/* CONTATO
+============================================
+*/
+
+#contato {
+  background: #f4f4f4;
+  color: #1f2839;
+}
+
+#contato h3,
+#contato h5,
+#contato .list-item,
+#contato a,
+#alert-msg-contato {
+  color: #1f2839;
+}
+
+#contato .list-item i {
+  color: #b69d74;
+  font-size: 1.2em;
+}
+
+#contato .list-item {
+  margin-bottom: 25px;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 0 15px;
+}
+
+#contato .form-control {
+  background: #fff;
+  color: #1f2839;
+  border: 1px solid rgba(94, 105, 130, 0.3);
+}
+
+/* Breakpoints
+============================================
+*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  #caixa-agradecimento blockquote {
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #caixa-agradecimento blockquote {
+    width: 50%;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}

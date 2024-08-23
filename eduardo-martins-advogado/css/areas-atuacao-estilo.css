@@ -1,0 +1,32 @@
+/* HEADER
+============================================
+*/
+
+header nav {
+  background: rgba(31, 40, 57, 0.98);
+}
+
+#banner {
+  background: linear-gradient(
+    180deg,
+    rgba(31, 40, 57, 0.5),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+   url("../img/banner-areas-atuacao.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 50vh;
+}
+
+/* Areas Atuacao
+============================================
+*/
+
+#area-atuacao {
+  background: #fff;
+}
+
+#area-atuacao h3 {
+  color: #1f2839;
+}

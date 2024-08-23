@@ -1,0 +1,475 @@
+/* Configurações
+============================================
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+html,
+body,
+#home {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #b69d74 !important;
+  transition: all 0.4s ease;
+}
+
+a.btn.botao-padrao {
+  color: #fff !important;
+  box-shadow: none;
+}
+
+.btn-lg {
+  padding: 0.6rem 1.3rem;
+  font-size: 1em;
+  line-height: 2em;
+  border-radius: 0.2rem;
+}
+
+/* Header
+============================================
+*/
+
+header {
+  z-index: 9;
+}
+
+header #header-caption {
+  background: rgb(31, 40, 57);
+  padding: 10px 0;
+}
+
+header #header-caption .list-inline-item {
+  line-height: 36px;
+  font-size: 0.8em;
+  margin-right: 15px;
+  font-weight: 400;
+}
+
+header #header-caption .list-inline-item i {
+  margin-right: 5px;
+  color: #b69d74;
+}
+
+/* Navigation*/
+header .navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+button:focus.navbar-toggler {
+  border: 0;
+  outline: none;
+}
+
+/* Home
+============================================
+*/
+#home {
+  background: linear-gradient(
+      180deg,
+      rgba(31, 40, 57, 0.85),
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.93)
+    ),
+    url("../img/banner.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  color: #fff;
+}
+
+#home #slide-primary p {
+  width: 75%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 20px;
+}
+
+/* Sobre
+============================================
+*/
+
+.destaque-img {
+  box-shadow: 25px 20px 0 #b69d74;
+}
+
+#area-atuacao {
+  background: #1f2839;
+}
+
+.caixa-area-atuacao {
+  background-color: #283247;
+}
+
+.caixa-area-atuacao i {
+  color: #b69d74;
+}
+
+/* Depoimentos
+============================================
+*/
+
+.caixa-depoimento {
+  color: #fff;
+  background: #9b8664;
+  padding: 35px 40px;
+}
+
+.legenda-pessoa {
+  font-size: 0.8em;
+}
+
+.caixa-depoimento i {
+  color: #d2a800;
+}
+
+#depoimentos .carousel-control {
+  color: #9b8664;
+}
+
+/* Contato
+============================================
+*/
+
+#contato {
+  background: linear-gradient(
+      180deg,
+      rgba(31, 40, 57, 0.9),
+      rgba(31, 40, 57, 0.9),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../img/textura.png") repeat center,
+    linear-gradient(
+      180deg,
+      rgba(31, 40, 57, 0.3),
+      rgba(31, 40, 57, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../img/fundo-contato.jpg") no-repeat center center;
+  background-size: cover, contain, cover;
+  height: auto;
+  overflow: hidden;
+}
+
+#contato .form-row {
+  margin-bottom: 20px;
+}
+
+#contato .form-control {
+  height: calc(2.5em + 0.75rem + 2px);
+  border-radius: 2px;
+  background: rgba(31, 40, 57, 0.5);
+  color: #f3f3fe;
+  border: 1px solid #5e6982;
+  box-shadow: none;
+}
+
+#contato .form-control::placeholder {
+  color: #929292;
+  font-size: 0.9em;
+}
+
+#contato .form-control:focus {
+  border-color: #b69d74;
+  outline: 1px solid #b69d74;
+  outline-offset: 0px;
+}
+
+#contato option {
+  color: #1f2839;
+  background: #f3f3f3;
+}
+
+#contato textarea.form-control {
+  min-height: 80px;
+  max-height: 400px;
+}
+
+/*Alerta envio de mensagem*/
+#alert-msg-contato {
+  display: none;
+  border: 2px solid #28a745;
+  color: #fff;
+  font-size: 0.8em;
+  padding: 5px 15px;
+  margin-top: 25px;
+}
+
+#alert-msg-contato i {
+  color: #28a745;
+}
+
+/*Noticias
+============================================
+*/
+
+.img-post {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#noticias .card h6 {
+  font-size: 1.15em;
+}
+
+#noticias .card .card-text {
+  font-size: 0.9em;
+}
+
+/* Footer
+============================================
+*/
+footer {
+  background: rgb(31, 40, 57);
+}
+
+footer #footer-top {
+  padding: 80px 0;
+}
+
+footer #footer-bottom {
+  background-color: #152032;
+}
+
+footer,
+footer p,
+footer a,
+footer span,
+footer time {
+  font-size: 0.9em;
+  line-height: 25px;
+  color: #c3c3c3;
+}
+
+footer h6 {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border-left: 3px solid #b69d74;
+  padding-left: 8px;
+}
+
+footer .list-item {
+  margin-bottom: 12px;
+}
+
+footer #redes-sociais a {
+  color: #f3f3f3;
+  background: #263043;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+}
+
+footer ul li > i {
+  color: #b69d74;
+}
+
+footer .form-control {
+  height: calc(2em + 0.75rem + 2px);
+  border-radius: 2px;
+  background: rgba(31, 40, 57, 0.5);
+  color: #f3f3f3;
+  border: 1px solid #5e6982;
+  box-shadow: none;
+}
+
+footer .form-control::placeholder {
+  color: #929292;
+  font-size: 0.9em;
+}
+
+footer .form-control:focus {
+  border-color: #b69d74;
+  outline: 1px solid #b69d74;
+  outline-offset: 0px;
+  background: rgba(31, 40, 57, 0.5);
+  box-shadow: none;
+  color: #f3f3f3;
+}
+
+/* Tipografia
+============================================
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1.3em;
+}
+
+/* Classes
+============================================
+*/
+
+.caixa {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.paragrafo {
+  font-size: 0.9em;
+  line-height: 25px;
+}
+
+.cor-padrao {
+  color: #b69d74;
+}
+
+/* Sobrescrita Bootstrap
+============================================
+*/
+
+.botao-padrao {
+  background-color: #b69d74;
+  border: none;
+}
+
+.botao-padrao:hover {
+  background-color: #9b8664;
+}
+
+.text-primary {
+  color: #b69d74 !important;
+}
+
+.text-secondary {
+  color: #c3c3c3 !important;
+}
+
+/* Breakpoints
+============================================
+*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  #logo-header {
+    width: 220px;
+  }
+
+  header nav {
+    background: rgba(31, 40, 57, 0.7);
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h4 {
+    font-size: 1.4em;
+  }
+
+  #home #slide-primary p {
+    width: 100%;
+    font-size: 0.9em;
+  }
+
+  #contato .form-row {
+    margin-bottom: 0;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  header nav {
+    background: rgba(31, 40, 57, 0.7);
+  }
+
+  #logo-header {
+    width: 220px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  #home #slide-primary p {
+    width: 100%;
+  }
+
+  #contato .form-row {
+    margin-bottom: 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  #home #slide-primary p {
+    width: 75%;
+  }
+
+  #contato .form-row {
+    margin-bottom: 25px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #logo-header {
+    width: 240px;
+  }
+
+  header nav {
+    background: none;
+  }
+  h1 {
+    font-size: 3.5em;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
