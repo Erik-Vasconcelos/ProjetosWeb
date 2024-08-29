@@ -59,6 +59,18 @@ p {
   color: #dde1e6;
 }
 
+.whatsapp{
+  position: fixed;
+  right: 20px;
+  bottom: 25px;
+  animation: pulsar-whatsapp 2s infinite;
+  border-radius: 50%;
+}
+
+.whatsapp img{
+  width: 45px;
+  z-index: 9999;
+}
 /* Header
 ======================================================
 */
@@ -321,7 +333,7 @@ a.btn.btn-padrao-gradient:hover {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: bold;
-  color: #5856d6;
+  color: #5d45fd;
   display: inline-block;
   margin-bottom: 5px;
 }
@@ -365,12 +377,17 @@ a.btn.btn-padrao-gradient:hover {
 @keyframes pulsar-whatsapp {
   0% {
     box-shadow: 0 0 10px -15px #25d366;
+    scale: 1.15;
+  }
+  50%{
+    scale: 1;
   }
   90% {
     box-shadow: 0 0 0 20px transparent;
   }
   100% {
     box-shadow: 0 0 0 0 transparent;
+    scale: 1.15;
   }
 }
 
