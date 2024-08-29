@@ -5,6 +5,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -167,6 +171,134 @@ header .navbar-expand-lg .navbar-nav .nav-item {
   white-space: pre;
 }
 
+/* Serviços
+======================================================
+*/
+
+#servicos .card {
+  background: #212028;
+  border-radius: 1em; /* Arredondamento */
+  color: #fff;
+  max-width: 310px;
+  min-height: 310px;
+  font-size: 0.9em;
+
+  /* Define a borda usando a técnica de background-clip */
+  padding: 1px; /* Ajuste para criar espaço para a borda */
+  background: linear-gradient(#212028, #212028) padding-box,
+    linear-gradient(135deg, rgba(142, 140, 152, 1), rgba(47, 46, 50, 0))
+      border-box;
+  border: 1px solid transparent; /* Borda transparente para usar o background gradiente */
+}
+
+#servicos .card-body {
+  padding: 2em 1em;
+}
+
+#servicos .card i {
+  font-size: 4em;
+}
+
+/* Projetos
+======================================================
+*/
+
+#projetos .card {
+  background: #212028;
+  border-radius: 1em; /* Arredondamento */
+  color: #fff;
+  max-width: 310px;
+  min-height: 420px;
+
+  padding: 1px;
+  background: linear-gradient(#212028, #212028) padding-box,
+    linear-gradient(0deg, rgba(142, 140, 152, 1), rgba(142, 140, 152, 0))
+      border-box;
+  border: 1px solid transparent;
+}
+
+#projetos .card:hover {
+  padding: 1px;
+  background: linear-gradient(#212028, #212028) padding-box,
+    rgba(94, 69, 253, 0.8) border-box;
+  box-shadow: 5px 8px 25px rgba(94, 69, 253, 0.5);
+  scale: 1.02;
+  transform: translateY(-12px);
+  transition: all 0.5s ease;
+}
+
+#projetos .card .card-text {
+  font-size: 0.9em;
+  font-weight: 200;
+}
+
+#projetos .card-img,
+.card-img-top {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+/* FAQ
+======================================================
+*/
+
+.btn.faq-button {
+  background: rgba(33, 32, 40, 1);
+  border: 1px solid rgba(142, 140, 152, 0.5);
+  text-align: left;
+  padding: 16px;
+}
+.btn.faq-button .faq-text {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+/* footer
+======================================================
+*/
+
+footer {
+  background: #121619;
+}
+
+footer #footer-top p,
+#footer-top a,
+#footer-top span {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #dde1e6;
+}
+
+#footer-top {
+  padding: 48px 0;
+}
+
+#footer-top #redes-sociais p,
+#footer-top #redes-sociais i {
+  color: #fff;
+}
+
+.list-footer {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #fff;
+}
+
+.list-footer .list-footer-item {
+  padding: 6px 0;
+}
+
+.list-footer .list-footer-item a {
+  text-decoration: none;
+}
+
+/*footer bottom*/
+
+#footer-bottom {
+  font-size: 0.8em;
+}
+
 /* Classes
 ======================================================
 */
@@ -183,10 +315,21 @@ a.btn.btn-padrao-gradient:hover {
   color: #fff;
 }
 
+.caption {
+  font-family: "Inter", sans-serif;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  color: #5856d6;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
 /* Sobrescrita B5
 ..................*/
 
-.btn{
+.btn {
   color: #fff;
   font-size: 0.9em;
   font-weight: 600;
@@ -205,7 +348,23 @@ a.btn.btn-padrao-gradient:hover {
 
 @keyframes pulsar {
   0% {
-    box-shadow: 0 0 5px -15px #5d45fd;
+    box-shadow: 0 0 10px -20px #5d45fd;
+  }
+  90% {
+    box-shadow: 0 0 0 25px transparent;
+  }
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+.animation-pulsar {
+  animation: pulsar 2s linear infinite;
+}
+
+@keyframes pulsar-whatsapp {
+  0% {
+    box-shadow: 0 0 10px -15px #25d366;
   }
   90% {
     box-shadow: 0 0 0 20px transparent;
@@ -215,8 +374,8 @@ a.btn.btn-padrao-gradient:hover {
   }
 }
 
-.animation-pulsar {
-  animation: pulsar 2s linear infinite;
+.animation-pulsar-whatsapp {
+  animation: pulsar-whatsapp 2s linear infinite;
 }
 
 /* Breakpoints
@@ -228,6 +387,14 @@ a.btn.btn-padrao-gradient:hover {
 
 /* Small (sm) -(min-width: 576px) and-  */
 @media (max-width: 767.98px) {
+  section#home {
+    margin-top: 60px;
+  }
+
+  section {
+    padding: 48px 0;
+  }
+
   header #header-top p {
     font-size: 0.7em;
   }
@@ -237,11 +404,11 @@ a.btn.btn-padrao-gradient:hover {
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 
   h3 {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
 
   h4 {
@@ -256,7 +423,7 @@ a.btn.btn-padrao-gradient:hover {
     font-size: 1em;
   }
 
-  p{
+  p {
     font-size: 0.9em;
   }
 
@@ -279,8 +446,24 @@ a.btn.btn-padrao-gradient:hover {
     justify-content: space-between !important;
   }
 
-  .btn.btn-lg{
+  .btn.btn-lg {
     padding: 8px 24px !important;
+  }
+
+  /*servicos*/
+
+  #servicos .card p {
+    font-size: 1em;
+  }
+
+  /*faq*/
+  #faq .img-fluid {
+    max-width: 80%;
+  }
+
+  /*footer*/
+  footer .gy-5 {
+    --bs-gutter-y: 2rem !important;
   }
 }
 
@@ -329,16 +512,14 @@ a.btn.btn-padrao-gradient:hover {
 
 /* Extra large (xl) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-  #colunaExperiencia .col-3{
+  #colunaExperiencia .col-3 {
     width: auto;
   }
 }
 
 /* Extra extra large (xxl) */
 @media (min-width: 1400px) {
-  #colunaExperiencia .col-3{
+  #colunaExperiencia .col-3 {
     width: auto;
   }
 }
-
-
